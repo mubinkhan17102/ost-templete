@@ -22,7 +22,7 @@ html {
 .topleft {
   list-style-type: none;
   display: flex;
-  padding-left: 20px;
+  padding-left: 35px;
 }
 .topleft li {
   padding: 0 10px;
@@ -33,15 +33,25 @@ html {
   cursor: pointer;
 }
 .topright {
-  padding-right: 20px;
+  padding-right: 35px;
 }
-.topright input[type="text"] {
+.formwithicn {
+  position: relative;
+  padding-right: 35px;
+}
+.formwithicn input[type="text"] {
   width: 3in;
   height: 0.35in;
   border-radius: 20px;
   border: none;
   outline: none;
-  padding: 0px 20px;
+  padding: 0px 13px;
+}
+.formwithicn img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px 40px 0 0;
 }
 /* Style for the banner section */
 .banner {
@@ -295,13 +305,14 @@ html {
   border-radius: 10px;
   height: 40px;
   margin-bottom: 10px;
-  color: #f2f2f2;
+  color: #2b2b2b;
   padding: 10px;
 }
 .contact textarea {
   background-color: #f2f2f2;
   border-radius: 10px;
   border: none;
+  padding: 10px;
 }
 .contact input[type="submit"] {
   margin-top: 10px;
